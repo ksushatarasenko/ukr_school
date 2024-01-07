@@ -57,6 +57,12 @@ h2{
     color: green;
     font-size: 34px;
 }
+h3{
+   font-size: 30px; 
+}
+.p{
+   font-size: 26px;
+}
 /* =========== List Lesson ============== */
  .liLesson a{
     font-size: 24px;
