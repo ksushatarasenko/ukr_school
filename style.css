@@ -97,3 +97,23 @@ h2{
  .three img{
     width: 40%;
  }
+ /* ======== TABLE ============= */
+ .headTab{
+    font-size: 30px;
+    text-align: center;
+ }
+ .day{
+    padding: 40px;
+ }
+ .predmet{
+    font-size: 26px;
+    text-align: center;
+ }
+
+ /* ===== FOOTER ========= */
+ footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: cornflowerblue;
+ }
