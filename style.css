@@ -123,3 +123,22 @@ h3{
     height: 100px;
     background-color: cornflowerblue;
  }
+ /* ========= PREZENTATION ============ */
+ .prezent iframe,
+.video iframe {
+    width: 1400px;
+    height: 800px;
+}
+
+@media (max-width: 768px) {
+   .prezent iframe,
+   .video  iframe{
+      width: 500px; 
+      height: 300px;
+   }
+
+   .two, .three {
+      display: flex;
+      flex-direction: column;
+   }
+}
