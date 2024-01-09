@@ -124,21 +124,31 @@ h3{
     background-color: cornflowerblue;
  }
  /* ========= PREZENTATION ============ */
- .prezent iframe,
-.video iframe {
+.prezent ,
+.video {
     width: 1400px;
     height: 800px;
 }
 
+.prezent iframe,
+.video iframe {
+    width: 100%;
+    height: 90%;
+}
+
 @media (max-width: 768px) {
-   .prezent iframe,
-   .video  iframe{
-      width: 500px; 
-      height: 300px;
+   .prezent ,
+   .video  {
+      width: 80%; 
+      height: 350px;
    }
 
    .two, .three {
       display: flex;
       flex-direction: column;
+      align-items: center;
+   }
+   .two img, .three img{
+      width: 90%;
    }
 }
