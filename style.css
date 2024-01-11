@@ -115,7 +115,10 @@ h3{
     font-size: 26px;
     text-align: center;
  }
+ 
+ @media (max-width: 1200px){
 
+ }
  /* ===== FOOTER ========= */
  footer{
     display: flex;
@@ -165,4 +168,9 @@ h3{
    .two img, .three img{
       width: 90%;
    }
+}
+/* ============== */
+.plan{
+   width: 1400px;
+   height: 800px;
 }
