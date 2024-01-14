@@ -26,6 +26,10 @@ header ul{
     font-size: 24px;
     color:bisque;
 }
+.ulhead{
+   display: flex;
+   flex-wrap: wrap;
+}
 /* ========= MAIN =============== */
 .main{
     display: flex;
@@ -46,6 +50,20 @@ header ul{
     text-align: left;
     margin: 5%;
 }
+.rozklad{
+   display: flex;
+   gap: 5%;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.day{
+   margin-top: 5%;
+}
+.day li{
+   font-size: 20px;
+}
+
+
 /*  ======= TEXT ============= */
 h1{
     color: blueviolet;
@@ -103,22 +121,7 @@ h3{
  .three img{
     width: 40%;
  }
- /* ======== TABLE ============= */
- .headTab{
-    font-size: 30px;
-    text-align: center;
- }
- .day{
-    padding: 40px;
- }
- .predmet{
-    font-size: 26px;
-    text-align: center;
- }
  
- @media (max-width: 1200px){
-
- }
  /* ===== FOOTER ========= */
  footer{
     display: flex;
@@ -129,8 +132,11 @@ h3{
  /* ========= PREZENTATION ============ */
 .prezent ,
 .video {
-    width: 1400px;
+    width: 1300px;
     height: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .prezent iframe,
@@ -141,8 +147,8 @@ h3{
 @media (max-width: 1200px) {
    .prezent ,
    .video  {
-      width: 90%; 
-      height: 450px;
+      width: 900px; 
+      height: 500px;
    }
 
    .two, .three {
@@ -156,8 +162,8 @@ h3{
 @media (max-width: 768px) {
    .prezent ,
    .video  {
-      width: 80%; 
-      height: 350px;
+      width: 400px; 
+      height: 250px;
    }
 
    .two, .three {
