@@ -81,6 +81,10 @@ h3{
 .p{
    font-size: 26px;
 }
+
+.red{
+   color: red;
+}
 /* =========== List Lesson ============== */
  .liLesson a{
     font-size: 20px;
