@@ -224,10 +224,10 @@ h3{
 }
 
 .zoomable {
-   transition: transform 0.3s ease;
+   transition: transform 1.5s ease;
 }
 .zoomable:hover {
-   transform: scale(1.7); 
+   transform: scale(1.5); 
 }
 .four{
    display: grid;
