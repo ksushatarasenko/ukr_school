@@ -268,3 +268,11 @@ h3{
    max-width: 90%;
    max-height: 90%;
  }
+ /* InfoText */
+ .infoText{
+   background-color: beige;
+   padding: 5%;
+ }
+ .infoText p{
+   margin-top: 4%;
+ }
