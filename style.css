@@ -227,6 +227,9 @@ h3{
 }
 .image img{
    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 /* ======= IMAGE ========= */
 .image{
