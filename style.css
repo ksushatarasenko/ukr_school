@@ -92,6 +92,10 @@ h3{
 .green{
    color: green;
 }
+.b{
+   font-weight: 900;
+   color: blue;
+}
 
 .encyklopediaTitle{
    font-size: 30px;
@@ -158,7 +162,11 @@ h3{
    width: 100%;
    height: 100%;
  }
- 
+ hr{
+   border: none;          /* Убираем стандартное оформление */
+   height: 5px;           /* Толщина линии */
+   background-color: red; /* Цвет линии */
+ }
  /* ===== FOOTER ========= */
  footer{
     display: flex;
@@ -300,3 +308,19 @@ h3{
    width: 100%;
    
  }
+
+ /* Таблица*/
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-bottom: 20px;
+}
+th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+   font-size: 24px;
+}
+th {
+   background-color: #f2f2f2;
+}
